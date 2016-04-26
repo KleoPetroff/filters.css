@@ -1,0 +1,30 @@
+{
+  "name": "filters.css",
+  "version": "1.0.0",
+  "description": "A simple CSS filter library",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint lib/filters.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KleoPetroff/filters.css.git"
+  },
+  "keywords": [
+    "CSS",
+    "CSS3",
+    "filters"
+  ],
+  "author": "Kliment Petrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KleoPetroff/filters.css/issues"
+  },
+  "homepage": "https://github.com/KleoPetroff/filters.css#readme",
+  "devDependencies": {
+    "stylelint": "^6.2.1"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^6.0.0"
+  }
+}
