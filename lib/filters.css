@@ -1,5 +1,415 @@
-/* root element */
-.root {
-    display: block;
-    color: #3e3e3e;
+/* Grayscale Filter */
+
+.grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.grayscale-1 {
+    filter: grayscale(10%);
+    -webkit-filter: grayscale(10%);
+}
+
+.grayscale-2 {
+    filter: grayscale(20%);
+    -webkit-filter: grayscale(20%);
+}
+
+.grayscale-3 {
+    filter: grayscale(30%);
+    -webkit-filter: grayscale(30%);
+}
+
+.grayscale-4 {
+    filter: grayscale(40%);
+    -webkit-filter: grayscale(40%);
+}
+
+.grayscale-5 {
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
+
+.grayscale-6 {
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+}
+
+.grayscale-7 {
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+}
+
+.grayscale-8 {
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+}
+
+.grayscale-9 {
+    filter: grayscale(90%);
+    -webkit-filter: grayscale(90%);
+}
+
+/* Sepia */
+
+.sepia {
+    filter: sepia(100%);
+    -webkit-filter: sepia(100%);
+}
+
+.sepia-1 {
+    filter: sepia(10%);
+    -webkit-filter: sepia(10%);
+}
+
+.sepia-2 {
+    filter: sepia(20%);
+    -webkit-filter: sepia(20%);
+}
+
+.sepia-3 {
+    filter: sepia(30%);
+    -webkit-filter: sepia(30%);
+}
+
+.sepia-4 {
+    filter: sepia(40%);
+    -webkit-filter: sepia(40%);
+}
+
+.sepia-5 {
+    filter: sepia(50%);
+    -webkit-filter: sepia(50%);
+}
+
+.sepia-6 {
+    filter: sepia(60%);
+    -webkit-filter: sepia(60%);
+}
+
+.sepia-7 {
+    filter: sepia(70%);
+    -webkit-filter: sepia(70%);
+}
+
+.sepia-8 {
+    filter: sepia(80%);
+    -webkit-filter: sepia(80%);
+}
+
+.sepia-9 {
+    filter: sepia(90%);
+    -webkit-filter: sepia(90%);
+}
+
+/* Saturate */
+
+.saturate {
+    filter: saturate(100%);
+    -webkit-filter: saturate(100%);
+}
+
+.saturate-1 {
+    filter: saturate(10%);
+    -webkit-filter: saturate(10%);
+}
+
+.saturate-2 {
+    filter: saturate(20%);
+    -webkit-filter: saturate(20%);
+}
+
+.saturate-3 {
+    filter: saturate(30%);
+    -webkit-filter: saturate(30%);
+}
+
+.saturate-4 {
+    filter: saturate(40%);
+    -webkit-filter: saturate(40%);
+}
+
+.saturate-5 {
+    filter: saturate(50%);
+    -webkit-filter: saturate(50%);
+}
+
+.saturate-6 {
+    filter: saturate(60%);
+    -webkit-filter: saturate(60%);
+}
+
+.saturate-7 {
+    filter: saturate(70%);
+    -webkit-filter: saturate(70%);
+}
+
+.saturate-8 {
+    filter: saturate(80%);
+    -webkit-filter: saturate(80%);
+}
+
+.saturate-9 {
+    filter: saturate(90%);
+    -webkit-filter: saturate(90%);
+}
+
+/* Hue Rotate */
+
+.hue-rotate {
+    filter: hue-rotate(0deg);
+    -webkit-filter: hue-rotate(0deg);
+}
+
+.hue-rotate-1 {
+    filter: hue-rotate(36deg);
+    -webkit-filter: hue-rotate(36deg);
+}
+
+.hue-rotate-2 {
+    filter: hue-rotate(72deg);
+    -webkit-filter: hue-rotate(72deg);
+}
+
+.hue-rotate-3 {
+    filter: hue-rotate(108deg);
+    -webkit-filter: hue-rotate(108deg);
+}
+
+.hue-rotate-4 {
+    filter: hue-rotate(144deg);
+    -webkit-filter: hue-rotate(144deg);
+}
+
+.hue-rotate-5 {
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+}
+
+.hue-rotate-6 {
+    filter: hue-rotate(216deg);
+    -webkit-filter: hue-rotate(216deg);
+}
+
+.hue-rotate-7 {
+    filter: hue-rotate(252deg);
+    -webkit-filter: hue-rotate(252deg);
+}
+
+.hue-rotate-8 {
+    filter: hue-rotate(288deg);
+    -webkit-filter: hue-rotate(288deg);
+}
+
+.hue-rotate-9 {
+    filter: hue-rotate(324deg);
+    -webkit-filter: hue-rotate(324deg);
+}
+
+/* Invert */
+
+.invert {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.invert-1 {
+    filter: invert(10%);
+    -webkit-filter: invert(10%);
+}
+
+.invert-2 {
+    filter: invert(20%);
+    -webkit-filter: invert(20%);
+}
+
+.invert-3 {
+    filter: invert(30%);
+    -webkit-filter: invert(30%);
+}
+
+.invert-4 {
+    filter: invert(40%);
+    -webkit-filter: invert(40%);
+}
+
+.invert-5 {
+    filter: invert(50%);
+    -webkit-filter: invert(50%);
+}
+
+.invert-6 {
+    filter: invert(60%);
+    -webkit-filter: invert(60%);
+}
+
+.invert-7 {
+    filter: invert(70%);
+    -webkit-filter: invert(70%);
+}
+
+.invert-8 {
+    filter: invert(80%);
+    -webkit-filter: invert(80%);
+}
+
+.invert-9 {
+    filter: invert(90%);
+    -webkit-filter: invert(90%);
+}
+
+/* Brightness */
+
+.brightness {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+
+.brightness-1 {
+    filter: brightness(10%);
+    -webkit-filter: brightness(10%);
+}
+
+.brightness-2 {
+    filter: brightness(20%);
+    -webkit-filter: brightness(20%);
+}
+
+.brightness-3 {
+    filter: brightness(30%);
+    -webkit-filter: brightness(30%);
+}
+
+.brightness-4 {
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+}
+
+.brightness-5 {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+.brightness-6 {
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+}
+
+.brightness-7 {
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+}
+
+.brightness-8 {
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+}
+
+.brightness-9 {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+}
+
+/* Contrast */
+
+.contrast {
+    filter: contrast(100%);
+    -webkit-filter: contrast(100%);
+}
+
+.contrast-1 {
+    filter: contrast(10%);
+    -webkit-filter: contrast(10%);
+}
+
+.contrast-2 {
+    filter: contrast(20%);
+    -webkit-filter: contrast(20%);
+}
+
+.contrast-3 {
+    filter: contrast(30%);
+    -webkit-filter: contrast(30%);
+}
+
+.contrast-4 {
+    filter: contrast(40%);
+    -webkit-filter: contrast(40%);
+}
+
+.contrast-5 {
+    filter: contrast(50%);
+    -webkit-filter: contrast(50%);
+}
+
+.contrast-6 {
+    filter: contrast(60%);
+    -webkit-filter: contrast(60%);
+}
+
+.contrast-7 {
+    filter: contrast(70%);
+    -webkit-filter: contrast(70%);
+}
+
+.contrast-8 {
+    filter: contrast(80%);
+    -webkit-filter: contrast(80%);
+}
+
+.contrast-9 {
+    filter: contrast(90%);
+    -webkit-filter: contrast(90%);
+}
+
+/* Blur */
+
+.blur {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+.blur-1 {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.blur-2 {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.blur-3 {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.blur-4 {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.blur-5 {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.blur-6 {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.blur-7 {
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+
+.blur-8 {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.blur-9 {
+    filter: blur(9px);
+    -webkit-filter: blur(9px);
 }
