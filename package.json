@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/KleoPetroff/filters.css#readme",
   "dependencies": {
-    "stylelint": "^6.2.1",
-    "stylelint-config-standard": "^6.0.0"
+    "stylelint": "^6.5.1",
+    "stylelint-config-standard": "^8.0.0"
   }
 }
